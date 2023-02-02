@@ -1,0 +1,387 @@
+* {
+  margin: 0;
+}
+body {
+  direction: rtl;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.75);
+  border-bottom: 1px solid white;
+}
+.logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: -330px;
+}
+
+.logo h1 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.logo h2 {
+  font-size: 16px;
+  margin: 0;
+}
+
+.logo img {
+  height: 50px;
+  margin-right: 150px;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.links a {
+  margin-left: 20px;
+  font-size: 16px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.links a img {
+  width: 30px;
+  margin-bottom: -8px;
+}
+.dropdown {
+  margin-bottom: 8px;
+}
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* .dropdown:hover .dropdown-menu {
+display: block;
+} */
+
+.dropdown-menu img {
+  height: 30px;
+  margin-right: 10px;
+}
+
+.dropdown-menu a {
+  display: flex;
+  align-items: center;
+  color: #333;
+  padding: 12px 16px;
+  text-decoration: none;
+}
+
+.dropdown-menu a:hover {
+  background-color: #ddd;
+}
+
+.layer {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-first {
+  background-image: url("home-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+  position: relative;
+}
+
+.fas {
+  margin-left: 150px;
+}
+
+.container-first .h1 {
+  margin-top: 145px;
+  margin-right: 250px;
+  color: white;
+  font-size: 70px;
+  font-weight: 100;
+  position: absolute;
+}
+.firstP {
+  margin-top: 245px;
+  margin-right: 335px;
+  color: white;
+  font-size: 30px;
+  font-weight: 100;
+  position: absolute;
+}
+
+.search {
+  display: flex;
+}
+input[type="text"] {
+  z-index: 2;
+  margin-top: -162px;
+  position: absolute;
+  margin-right: 400px;
+  width: 600px;
+  height: 55px;
+  border-radius: 10px;
+  border: none;
+}
+
+input::placeholder {
+  color: gray;
+  text-align: center;
+  font-size: 30px;
+}
+.btn {
+  background-color: #935cae;
+  color: white;
+  margin-top: -163px;
+  width: 50px;
+  height: 60px;
+  margin-right: 1004px;
+  border-radius: 15px;
+  border: none;
+}
+
+.secondP {
+  margin: -75px 530px 0 0;
+  color: white;
+  font-size: 30px;
+  font-weight: 100;
+  position: absolute;
+}
+
+.secondP button {
+  background-color: #935cae;
+  color: white;
+  margin-top: 1px;
+  width: 130px;
+  height: 60px;
+  font-size: 25px;
+  border-radius: 15px;
+  border: none;
+}
+
+.h12 {
+  color: #333;
+  font-size: 45px;
+  font-weight: 400;
+  margin-top: 50px;
+  margin-bottom: 70px;
+  text-align: center;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+
+.card {
+  background-image: url(header1.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 300px;
+  width: 30%;
+  margin: 10px 12px;
+  margin-right: 20px;
+  border-radius: 15px;
+}
+
+.container .row .card .card-line {
+  background-color: #935cae;
+  height: 4px;
+  width: 20%;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.backgroundImage1 .card-header {
+  text-align: start;
+  margin-top: 20px;
+  margin-right: 50px;
+  font-size: 30px;
+}
+
+.card .backgroundImage2 {
+  background-image: url(header2.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+}
+.backgroundImage2 .card-header {
+  text-align: start;
+  margin-top: 20px;
+  margin-right: 50px;
+  font-size: 30px;
+}
+
+.card .backgroundImage3 {
+  background-image: url(header3.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+}
+.backgroundImage3 .card-header {
+  text-align: start;
+  margin-top: 20px;
+  margin-right: 50px;
+  font-size: 30px;
+}
+.card .backgroundImage4 {
+  background-image: url(header4.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+}
+.backgroundImage4 .card-header {
+  text-align: start;
+  margin-top: 20px;
+  margin-right: 50px;
+  font-size: 30px;
+}
+.card .backgroundImage5 {
+  background-image: url(header5.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+}
+.backgroundImage5 .card-header {
+  text-align: start;
+  margin-top: 20px;
+  margin-right: 50px;
+  font-size: 30px;
+}
+.card .backgroundImage6 {
+  background-image: url(header6.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+}
+.backgroundImage6 .card-header {
+  text-align: start;
+  margin-top: 20px;
+  margin-right: 50px;
+  font-size: 30px;
+}
+.card .backgroundImage7 {
+  background-image: url(header7.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+}
+.backgroundImage7 .card-header {
+  text-align: start;
+  margin-top: 20px;
+  margin-right: 50px;
+  font-size: 30px;
+}
+.card .backgroundImage8 {
+  background-image: url(header8.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+}
+.backgroundImage8 .card-header {
+  text-align: start;
+  margin-top: 20px;
+  margin-right: 50px;
+  font-size: 30px;
+}
+.card .backgroundImage9 {
+  background-image: url(header9.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+}
+.backgroundImage9 .card-header {
+  text-align: start;
+  margin-top: 20px;
+  margin-right: 50px;
+  font-size: 30px;
+}
+.card .backgroundImage10 {
+  background-image: url(header10.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+}
+.backgroundImage10 .card-header {
+  text-align: start;
+  margin-top: 20px;
+  margin-right: 50px;
+  font-size: 30px;
+}
+.card .backgroundImage11 {
+  background-image: url(header11.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+}
+.backgroundImage11 .card-header {
+  text-align: start;
+  margin-top: 20px;
+  margin-right: 50px;
+  font-size: 30px;
+}
+.card .backgroundImage12 {
+  background-image: url(header12.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+}
+.backgroundImage12 .card-header {
+  text-align: start;
+  margin-top: 20px;
+  margin-right: 50px;
+  font-size: 30px;
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 60px;
+  height: 50px;
+  background-color: #313238;
+  color: white;
+  padding-top: 30px;
+  font-size: 20px;
+}
+
+.footer span {
+  color: #ff9b17;
+  font-weight: 900;
+}
